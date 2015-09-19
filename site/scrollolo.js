@@ -8,8 +8,6 @@ var Scrollolo = (function(){
         this.throttleThreshold = options.throttleThreshold;
         this.offsetDown = options.offsetDown;
         this.offsetUp = options.offsetUp;
-        // default animation settings, use only high performance css animations
-        // - http://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
         this.direction = options.direction;
         this.x = options.x;
         this.y = options.y;
@@ -20,11 +18,9 @@ var Scrollolo = (function(){
         this.duration = options.duration;
         this.easeType = options.easeType;
     }
-    // methods in Constructor
+    // Methods
     Scrollolo.prototype = {
         throttle : function( func, wait, options ) {
-            // throttle function from underscore.js
-            // - http://stackoverflow.com/questions/27078285/simple-throttle-in-js
             var context, args, result;
             var timeout = null;
             var previous = 0;
@@ -64,14 +60,11 @@ var Scrollolo = (function(){
             };
         },
         isElementInViewport : function( el ) {
-            // - http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport/7557433#7557433
             if (typeof jQuery === 'function' && el instanceof jQuery) {
                 el = el[0];
             }
             var self = this,
                 rect = el.getBoundingClientRect();
-                // offsetDown = $(el).data('scrollolo-offset-down') || self.offsetDown,
-                // offsetUp = $(el).data('scrollolo-offset-up') || self.offsetUp,
             return (
                 rect.top >= 0 + self.offsetUp &&
                 // rect.left >= 0 &&

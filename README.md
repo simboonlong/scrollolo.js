@@ -1,5 +1,5 @@
 ## scrollolo.js
-A lightweight js plugin (2kb), that animates elements when entering viewport.
+A lightweight js plugin, that animates elements when entering viewport.
 
 1. requires Jquery, TweenMax.
 2. manually tested on latest version of Chrome, Firefox, Safari.
@@ -26,18 +26,18 @@ To use, assign `scrollolo` class to any element you want to animate.
 Include `scrollolo.js` script.
 ```
 
-<script type="text/javascript" src="scrollolo.min.js"></script>
+<script type="text/javascript" src="scrollolo.js"></script>
 
 ```
 
-Then initialize `scrollolo.js` with the following arguments. The options are the default starting animating values, if no custom data-attributes are assigned on the element.
+Then initialize `scrollolo.js` with the following arguments.
 
 ```
 
 // instantiate with scrollolo class + options
 var scrolloloCache = $('.scrollolo'); // to cache element
 var scrollolo = new Scrollolo( scrolloloCache, {
-    throttleThreshold : 20, // scrolling throttle. smaller = sensitive, bigger = better performance
+    throttleThreshold : 20, // scrolling throttle
     offsetDown : 0, // element percentage offset for scrolling down, use float values
     offsetUp : 0, // element percentage offset for scrolling up, use float values
     direction : 'none', // x, y, none
@@ -80,7 +80,7 @@ Example:
 
 
 ## Todo
-1. Trigger on animated ending values, instead of starting values.
+1. Trigger on elements' offset position relative to document.height, rather than isElementInViewport.
 2. Offset capability for individual elements.
 
 

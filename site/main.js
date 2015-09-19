@@ -3,7 +3,7 @@
     // instantiate with scrollolo class + options
     var scrolloloCache = $('.scrollolo'); // to cache element
     var scrollolo = new Scrollolo( scrolloloCache, {
-        throttleThreshold : 20, // scrolling throttle. smaller = sensitive, bigger = better performance
+        throttleThreshold : 20, // scrolling throttle
         offsetDown : 0, // element percentage offset for scrolling down, use float values
         offsetUp : 0, // element percentage offset for scrolling up, use float values
         direction : 'none', // x, y, none
