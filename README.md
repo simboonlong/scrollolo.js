@@ -12,6 +12,8 @@ Currently the plugin only supports the 4 basic animations: translate, scale, rot
 Integrated throttling function from underscore.js. Read more at: http://underscorejs.org/#throttle
 
 ## Demo
+![scrollolo demo](scrollolo.gif)
+
 Demo link at http://htmlpreview.github.io/?https://github.com/simboonlong/scrollolo.js/blob/master/site/index.html
 
 
