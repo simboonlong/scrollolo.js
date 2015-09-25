@@ -5,16 +5,18 @@ A lightweight js plugin, that animates elements when entering viewport.
 2. manually tested on latest version of Chrome, Firefox, Safari.
 3. optional custom animations, using data-attributes.
 
+
+## Demo
+![scrollolo.js demo](scrollolo.gif)
+
+Demo link at http://htmlpreview.github.io/?https://github.com/simboonlong/scrollolo.js/blob/master/site/index.html
+
+
 ## Mechanics
 
 Currently the plugin only supports the 4 basic animations: translate, scale, rotation, opacity. This is in line with keeping animations high performing on browsers. Read more at: http://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
 
 Integrated throttling function from underscore.js. Read more at: http://underscorejs.org/#throttle
-
-## Demo
-![scrollolo demo](scrollolo.gif)
-
-Demo link at http://htmlpreview.github.io/?https://github.com/simboonlong/scrollolo.js/blob/master/site/index.html
 
 
 ## Usage
