@@ -1,0 +1,94 @@
+/*!
+scrollolo.js - http://simboonlong.com
+Licensed under the MIT license
+
+Copyright (c) 2017 Sim Boon Long
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*//* demo purposes, can delete this block - start */* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: solid 1px rgba(0, 0, 0, 0.25);
+}
+
+#equal-height section {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  padding: 5px;
+}
+
+#various-height section {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  padding: 5px;
+}
+
+#various-height article {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  padding: 5px;
+}
+
+#variable-height-position {
+  position: relative;
+  height: 2000px;
+}
+
+#variable-height-position .sm {
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  padding: 5px;
+}
+
+#variable-height-position .md {
+  position: absolute;
+  width: 120px;
+  height: 140px;
+  padding: 5px;
+}
+
+#variable-height-position .lg {
+  position: absolute;
+  width: 80px;
+  height: 200px;
+  padding: 5px;
+}
+
+#custom-animation {
+  text-align: center;
+}
+
+#custom-animation div {
+  position: relative;
+  margin: 0 auto;
+  width: 200px;
+  height: 300px;
+  padding: 5px;
+}/* demo purposes, can delete this block - end */.scrollolo {
+  background-color: orange;
+  transition: opacity 0.3s ease-out, visibility 0.3s ease-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.scrollolo.is-active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.scrollolo.is-active.animated {
+  transition: opacity 0s ease-out, visibility 0s ease-out;
+  opacity: 1;
+  visibility: visible;
+}
+
+/*# sourceMappingURL=scrollolo.css.map */

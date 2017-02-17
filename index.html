@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link rel="stylesheet" type="text/css" href="css/scrollolo.css">
+	</head>
+<body>
+    <h1>Scrollolo.js</h1>
+    <br>
+    <h2>Equal height</h2>
+    <br>
+    <div id="equal-height">
+        <section class="scrollolo">
+            equal height
+        </section>
+        <section class="scrollolo">
+            equal height
+        </section>
+        <section class="scrollolo">
+            equal height
+        </section>
+        <section class="scrollolo">
+            equal height
+        </section>
+        <section class="scrollolo">
+            equal height
+        </section>
+        <section class="scrollolo">
+            equal height
+        </section>
+    </div>
+    <br>
+    <h2>Various height</h2>
+    <br>
+    <div id="various-height">
+        <article class="scrollolo">
+            various height
+        </article>
+        <article class="scrollolo">
+            various height
+        </article>
+        <section class="scrollolo">
+            various height
+        </section>
+        <section class="scrollolo">
+            various height
+        </section>
+        <article class="scrollolo">
+            various height
+        </article>
+        <article class="scrollolo">
+            various height
+        </article>
+        <article class="scrollolo">
+            various height
+        </article>
+    </div>
+    <br>
+    <h2>variable height and position</h2>
+    <br>
+    <div id="variable-height-position">
+        <div class="sm scrollolo" style="top:60%; left: 5%;">variable height and position</div>
+        <div class="md scrollolo" style="top:2%; left: 20%;">variable height and position</div>
+        <div class="sm scrollolo" style="top:40%; left: 30%;">variable height and position</div>
+        <div class="sm scrollolo" style="top:80%; left: 10%;">variable height and position</div>
+        <div class="lg scrollolo" style="top:60%; left: 70%;">variable height and position</div>
+        <div class="sm scrollolo" style="top:10%; left: 55%;">variable height and position</div>
+        <div class="sm scrollolo" style="top:90%; left: 65%;">variable height and position</div>
+        <div class="md scrollolo" style="top:50%; left: 50%;">variable height and position</div>
+        <div class="md scrollolo" style="top:25%; left: 15%;">variable height and position</div>
+    </div>
+    <br>
+    <h2>Custom animation</h2>
+    <br>
+    <div id="custom-animation">
+        <div class="scrollolo" data-animation="bounce">
+            custom animation (bounce)
+        </div>
+        <div class="scrollolo" data-animation="rubberBand">
+            custom animation (rubberBand)
+        </div>
+        <div class="scrollolo" data-animation="shake">
+            custom animation (shake)
+        </div>
+        <div class="scrollolo" data-animation="zoomIn">
+            custom animation (zoomIn)
+        </div>
+        <div class="scrollolo" data-animation="swing">
+            custom animation (swing)
+        </div>
+        <div class="scrollolo" data-animation="bounceInLeft">
+            custom animation (bounceInLeft)
+        </div>
+        <div class="scrollolo" data-animation="flipInX">
+            custom animation (flipInX)
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script type="text/javascript" src="js/scrollolo.js"></script>
+    <script type="text/javascript">
+        Scrollolo.init();
+    </script>
+</body>
+</html>
+

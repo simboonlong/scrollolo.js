@@ -1,0 +1,21 @@
+// =====================================================================
+// Scrollolo
+// =====================================================================
+
+
+.scrollolo {
+    background-color: orange;
+    transition: opacity 0.3s ease-out, visibility 0.3s ease-out;
+    opacity: 0;
+    visibility: hidden;
+    &.is-active {
+        opacity: 1;
+        visibility: visible;
+    }
+    &.is-active.animated {
+        // reset fading transition for customized animation
+        transition: opacity 0s ease-out, visibility 0s ease-out;
+        opacity: 1;
+        visibility: visible;
+    }
+}
