@@ -1,5 +1,5 @@
 ## scrollolo.js
-Animates elements when entering viewport.
+Animate elements when entering viewport.
 
 1. requires Jquery, Animate.css.
 2. manually tested on latest version of Chrome, Firefox, Safari, IE.
@@ -9,7 +9,7 @@ Animates elements when entering viewport.
 ## Demo
 ![scrollolo.js demo](scrollolo.gif)
 
-Demo link at http://htmlpreview.github.io/?https://github.com/simboonlong/scrollolo.js/blob/master/site/index.html
+Demo link at http://htmlpreview.github.io/?https://github.com/simboonlong/scrollolo.js/blob/master/index.html
 
 
 ## Mechanics
@@ -51,7 +51,7 @@ Example:
 
 ```
 
-Please refer to [documentation](https://github.com/daneden/animate.css) of animate.css by Daniel Eden.
+For more information on css animation classes, please refer to <a href="https://github.com/daneden/animate.css" target="_blank">documentation</a> of animate.css by Daniel Eden.
 
 
 ## License
